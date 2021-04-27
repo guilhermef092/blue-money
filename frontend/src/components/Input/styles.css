@@ -1,0 +1,13 @@
+.control label {
+  font: 700 1.4rem Roboto;
+  color: #39414C;
+}
+
+.control strong {
+  color: #EB5757;
+}
+
+.control input {
+  margin: 1rem 0;
+  font: 700 2rem Roboto;
+}

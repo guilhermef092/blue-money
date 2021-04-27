@@ -1,0 +1,34 @@
+.card-container{
+  background-color: #FFFFFF;
+  
+  margin: 4rem;
+  padding: 4rem;
+
+  border-radius: 0.8rem;
+}
+
+.card-container .card-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container .card-title h3 {
+  font: 700 1.8rem Roboto;
+  color: #39414C;
+
+}
+
+.card-container .card-title img {
+  height: 2rem;
+  margin-right: 0.8rem;
+}
+
+.card-container .card-body {
+  margin-top: 1rem;
+}
+
+.card-container .card-body p {
+  font: 400 1.6rem Roboto;
+  color: #39414C;
+}

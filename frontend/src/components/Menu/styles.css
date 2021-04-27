@@ -1,0 +1,44 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+ .logo-container img {
+  max-height: 15rem;  
+  margin-bottom: 2rem;
+}
+
+.logo-container label {
+  font: 700 1.8rem Roboto;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.butons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  width: 100%;
+  padding: 2rem;
+}
+
+.container-menu .logout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.container-menu .logout-container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+}

@@ -1,0 +1,197 @@
+#page-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #e5e5e5;
+}
+
+.header-home {
+  background-color: #39414c;
+  width: 100%;
+  height: 8rem;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-home .header-link {
+  background-color: #ffffff;
+  color: #39414c;
+  font: 700 1.6rem Roboto;
+  border-radius: 0.8rem;
+
+  height: 4rem;
+  width: 12.5rem;
+  margin: 2rem 2rem 2rem 0rem;
+  line-height: 4rem;
+  text-decoration: none;
+}
+
+.content-home {
+  display: grid;
+  grid-template-rows: 300px 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'logo graphic' 'info graphic';
+}
+
+.logo-container {
+  grid-area: logo;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container img {
+  max-width: 80%;
+}
+
+.info-container {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-container h2 {
+  margin-bottom: 1rem;
+
+  font: 700 2.4rem Roboto;
+  color: #39414c;
+  padding: 2rem;
+}
+
+.info-container a {
+  background-color: #39414c;
+  color: #ffffff;
+  font: 700 1.4rem Roboto;
+  text-decoration: none;
+
+  height: 4.5rem;
+  width: 16rem;
+  line-height: 4.5rem;
+  border-radius: 0.8rem;
+  transition: background-color 0.2s;
+}
+
+.info-container a:hover {
+  background: #2D9CDB;
+  color: #FFFFFF;
+}
+
+.graphic-container {
+  grid-area: graphic;
+
+  display: flex;
+  justify-content: center;
+}
+
+.graphic-container img {
+  width: 80%;
+}
+
+.info-home {
+  width: 100%;
+  text-align: center;
+}
+
+.info-home h2 {
+  background-color: #2d9cdb;
+  color: #ffffff;
+  font: 700 2rem Roboto;
+
+  margin-top: 2rem;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.info-home .card-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-informative {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 10rem;
+  padding: 2rem;
+}
+
+.container-informative p {
+  font: 700 2rem Roboto;
+  color: #39414c;
+}
+
+.footer-home {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-home .account {
+  background-color: #39414c;
+  color: #ffffff;
+  font: 400 1.6rem Roboto;
+  text-decoration: none;
+  border-radius: 0.8rem;
+
+  height: 5rem;
+  width: 20rem;
+  line-height: 5rem;
+}
+
+@media (max-width: 767px) {
+  .header-home {
+    justify-content: center;
+    height: 6rem;
+  }
+
+  .header-home .header-link {
+    font: 700 1.4rem Roboto;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    margin: 2rem;
+  }
+
+  .content-home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-container {
+    margin-top: 2rem;
+  }
+
+  .logo-container img {
+    max-width: 70%;
+  }
+
+  .info-container h2 {
+    margin-top: 2rem;
+    font: 700 1.8rem Roboto;
+    padding: 2.5rem;
+  }
+
+  .graphic-container img {
+    max-width: 60%;
+  }
+
+  .info-home .card-page {
+    flex-direction: column;
+  }
+
+  .container-informative p {
+    font: 700 1.8rem Roboto;
+  }
+
+  .footer-home .account {
+    font: 400 1.4rem Roboto;
+    height: 4rem;
+    line-height: 4rem;
+  }
+}

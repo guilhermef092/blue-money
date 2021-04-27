@@ -1,0 +1,19 @@
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.info img {
+  padding: 2rem;
+  max-height: 20rem;
+}
+
+.info p {
+  font: 700 2.2rem Roboto;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 2rem
+}

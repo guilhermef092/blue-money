@@ -1,0 +1,31 @@
+.column .column-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  background-color: #39414C;
+}
+
+.column .column-card .status-img {
+  margin-right: 2rem;
+}
+
+.column .column-card .status-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.column-card .status-content label {
+  font: 700 2rem Roboto;
+  color: #FFFFFFFF;
+  margin-bottom: 1.5rem;
+}
+
+.column-card .status-content p { 
+  font: 700 1.6rem Roboto;
+  color: #FFFFFFFF;
+}

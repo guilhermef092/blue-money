@@ -1,0 +1,14 @@
+.container-menu .butons-container a {
+  background-color: #4A84BF;
+  color: #FFFFFF;
+  font: 700 1.6rem Roboto;
+  border-radius: 0.8rem;
+  border-color: transparent;
+  margin: 0.8rem;  
+  height: 5rem;
+  transition: background-color 0.2s;
+}
+
+.container-menu .butons-container a:hover {
+  background: #48c774;
+}

@@ -1,0 +1,121 @@
+:root {
+  font-size: 60%;
+  background-color: #39414C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+#root {
+  height: 100vh;
+  
+}
+
+body, input, button {
+  font: 700 1.4rem Roboto;
+}
+
+.columns, .column {
+  margin: 0;
+  padding: 0; 
+}
+
+.container-menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+  flex: 1;  
+  height: 100%;
+}
+
+.container-painel {
+  flex: 3;
+}
+
+.container-painel .painel-title {
+  text-align: center;
+  padding: 2rem;
+}
+
+.container-painel .painel-title label {
+  font: 700 2.6rem Roboto;
+  color: #FFFFFFFF;
+}
+
+.container-painel .painel-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+.container-painel .painel-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 2rem;
+  padding: 1rem;
+}
+
+.modal-content {
+  background-color: #FFFFFF;
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+
+.modal-content h1{
+  text-align: center;
+  font: 700 2rem Roboto;
+}
+
+ .modal.is-active .modal-content form button {
+  margin-top: 1em;
+}
+
+
+.container-painel .painel-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.painel-value label {
+  color: #FFFFFF;
+  font: 700 1.8rem Roboto;
+}
+
+.container-painel .painel-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 0.8rem;
+  background-color: #FFFFFFFF;
+}
+
+table thead tr, table tbody tr  {
+  text-align: center;
+  vertical-align: middle;
+  display: table-row;
+} 
+
+table tbody tr button + button {
+margin-right: 2rem;
+}
+
+.container-painel .painel-table .table-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.painel-table .table-button button{
+  margin-right: 1rem;
+}

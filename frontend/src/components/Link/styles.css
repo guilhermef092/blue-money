@@ -1,0 +1,14 @@
+.link {
+  text-decoration: none;
+  color: #4A84BF;
+  margin-top: 1.5rem;
+  font: 700 1.6rem Roboto;
+}
+
+.link + .link {
+  margin-top: 1.5rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
