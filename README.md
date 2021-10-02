@@ -1,3 +1,9 @@
 # Projeto Final - Pós Graduação (IGTI)
 
-## MBA em Desenvolvimento Full Stack
+## Tecnologias
+- FrontEnd (Node.js)
+- FrontEnd (React)
+
+## Sobre o Projeto
+
+Blue Money é um Sistema Web desenvolvimento que irá auxiliar as empresar ter um controle maior nas receitas, despesas e contas a pagar. 
