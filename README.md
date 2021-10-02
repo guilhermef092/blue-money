@@ -6,4 +6,4 @@
 
 ## Sobre o Projeto
 
-Blue Money é um Sistema Web desenvolvimento que irá auxiliar as empresar ter um controle maior nas receitas, despesas e contas a pagar. 
+Blue Money é um Sistema Web desenvolvimento que irá auxiliar as empresas ter um controle maior nas receitas, despesas e contas a pagar. 
