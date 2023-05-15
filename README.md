@@ -1,7 +1,7 @@
 # Projeto Final - Pós Graduação (IGTI)
 
 ## Tecnologias
-- FrontEnd (Node.js)
+- BackEnd (Node.js)
 - FrontEnd (React)
 
 ## Sobre o Projeto
